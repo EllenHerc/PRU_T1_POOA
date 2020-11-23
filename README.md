@@ -88,7 +88,7 @@ public class PdfManage {
     }
 }
 ~~~
-<p>Embora a implementação pareça adequada a seu propósito, nota-se que a classe <i>PdfManege</i> contém duas resposabilidade, imprimir o conteúdo de um arquivo PDF e manipular strings num arquivo PDF, portanto não atende ao PRU. Para adequa-la ao princípio pode-se dividir a implementação dos métodos em classes distintas, de forma que cada classe tenha apenas uma responsabilidade. Segue o código que atende ao PRU:</p>
+<p>Embora a implementação pareça adequada a seu propósito, nota-se que a classe <i>PdfManege</i> contém duas resposabilidades: imprimir o conteúdo de um arquivo PDF e manipular strings num arquivo PDF, portanto não atende ao PRU. Para adequa-la ao princípio pode-se dividir a implementação dos métodos em classes distintas, de forma que cada classe tenha apenas uma responsabilidade. Segue o código que atende ao PRU:</p>
 
 ```Java
 public class PdfPrinter {
@@ -172,7 +172,7 @@ public class PdfModifier {
 
 ### Conclusão
 
-<p>No exemplo ilustrado era fácil e intuitivo adequar o código ao PRU, porém muitas vezes o critério de responsabilidade usado para encapsular o código pode não ser tão simples de se identificar. Vale ressaltar que o PRU deve ser usado com coesão e responsabilidade, a decisão de dividir uma classe/módulo de um código deve ser cuidadosamente pensada, sempre lembrando que deve-se evitar o design especulativo. Portanto é necessário conhecimento do domínio da problemática para conseguir tomar a melhor decisão possivel.</p>
+<p>No exemplo ilustrado era fácil e intuitivo adequar o código ao PRU, porém muitas vezes o critério de responsabilidade usado para encapsular o código pode não ser tão simples de se identificar. Vale ressaltar que o PRU deve ser usado com coesão e responsabilidade, a decisão de dividir uma classe/módulo de um código deve ser cuidadosamente pensada, sempre lembrando que deve-se evitar o design especulativo. Portanto é necessário conhecimento do domínio da problemática para conseguir tomar a melhor decisão possível.</p>
 
 #### Referências
 <p>Programação Orientada a Objetos Avançada - Daniel Lucrédio: https://www.youtube.com/watch?v=gbgV5jKZfTk&list=PLaPmgS59eMSFYb42BcmYzVcClCh0t-26L<br>

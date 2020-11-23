@@ -11,7 +11,7 @@
 <p>Ao observar um código que atende o princípio, nota-se que as depências entre classes é mínima e que há o encapsulamento das implementações que competem uma mesma resposabilidade (motivo para mudança).
 <br>Desta forma, o principal motivo para se adotar o PRU é que, se o princípio for bem aplicado, gera um código robusto e coeso, o que diminui as chances de erros relacionados principalmente a futuras mudanças nas implementações das classes/módulos.</p>
 
-###Exemplo
+### Exemplo
 
 <p>O seguinte código busca ilustrar como pode-se aplicar o princípio para obter o melhor encapsulamento das implementações, ele define uma classe para manipulação de documentos PDF's com a auxílio da biblioteca Apache PDFBox</p>
 
